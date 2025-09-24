@@ -89,11 +89,22 @@ During the development process, I encountered a few challenges:
 - **Mobile Responsiveness:** Ensuring that the app looked good on both mobile and desktop required constant adjustments to the CSS and media queries.
 - **Error Handling:** Proper error handling for API requests to provide users with appropriate feedback.
 
-## Improvements (If Given More Time)
-- **API Error Retry Logic:** Implement retry logic in case of API failures, rather than just showing an error message.
-- **Optimized Pagination:** Improve the pagination logic to allow infinite scrolling or a better user experience with more controls.
-- **Performance Optimizations:** Add lazy loading or pagination improvements to handle a large set of users.
-- **Testing:** Write unit and integration tests for components and API interactions.
+## ✨ Features
+
+### Core Functionality
+- **CRUD Operations**: Create, Read, Update, Delete users
+- **Smart Pagination**: Auto-redistribution when users are deleted
+- **Real-time Search**: Filter users across all pages
+- **Form Validation**: Client-side validation with error messages
+- **Loading States**: Spinners and loading indicators
+- **Toast Notifications**: Success, error, and info messages
+
+### User Experience
+- **Responsive Design**: Mobile-first approach with breakpoints
+- **Modern UI**: Glassmorphism design with gradients and blur effects
+- **Interactive Elements**: Hover effects, animations, and transitions
+- **Accessibility**: ARIA labels, keyboard navigation, high contrast support
+- **Progressive Enhancement**: Works on all devices and browsers
 
 ## Clean Code Commit History
 - **Initial Commit:** Scaffolding for the project, setting up the folder structure, installing dependencies.
